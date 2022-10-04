@@ -14,6 +14,17 @@ Essa biblioteca foi criada como método para aplicar os fundamentos da linguagem
 
 ### Instalação
 
+Instale via npm ou yarn diretamente no bash com o comando:
+
+```bash
+npm i ceeozim
+```
+
+```bash
+yarn add ceeozim 
+```
+
+
 ## 2
 ### 3
 #### 4
