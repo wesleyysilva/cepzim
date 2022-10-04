@@ -14,7 +14,7 @@ Essa biblioteca foi criada como método para aplicar os fundamentos da linguagem
 
 ### Instalação
 
-Instale via npm ou yarn diretamente no bash com o comando:
+Instale via npm ou yarn diretamente - no diretório da aplicação - no bash com o comando:
 
 ```bash
 npm i ceeozim
