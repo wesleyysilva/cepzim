@@ -1,0 +1,1 @@
+import {ViaCEP} from '../src/services/ViaCEP'
