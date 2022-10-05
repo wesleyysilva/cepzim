@@ -1,8 +1,8 @@
 {
   "name": "cepzim",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Search cep in Brasil",
-  "main": "src/",
+  "main": "src/index.ts",
   "scripts": {
     "test": "jest",
     "dev": "ts-node-dev src/isOK.ts"
