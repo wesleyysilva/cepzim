@@ -25,8 +25,6 @@ yarn add ceeozim
 ```
 ### Utilização
 
-Utilização abaixo:
-
 ```javascript
 
 import { ViaCEP } from "./services/ViaCEP";
