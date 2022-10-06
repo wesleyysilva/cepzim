@@ -27,7 +27,7 @@ yarn add cepzim
 
 ```javascript
 
-import { ViaCEP } from "./services/ViaCEP";
+import { ViaCEP } from "cepzim";
 
 async function getCEP(cep: string){
    const viacep = new ViaCEP();
