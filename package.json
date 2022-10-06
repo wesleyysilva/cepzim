@@ -4,6 +4,9 @@
   "description": "Search cep in Brasil",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "jest",
     "dev": "ts-node-dev src/isOK.ts",
