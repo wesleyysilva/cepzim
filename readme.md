@@ -1,4 +1,4 @@
-# Ceeozim
+# Cepzim
 
 ## Descrição
 
@@ -17,11 +17,11 @@ Essa biblioteca foi criada como método para aplicar os fundamentos da linguagem
 Instale via npm ou yarn diretamente - no diretório da aplicação - no bash com o comando:
 
 ```bash
-npm i ceeozim
+npm i cepzim
 ```
 
 ```bash
-yarn add ceeozim 
+yarn add cepzim 
 ```
 ### Utilização
 
