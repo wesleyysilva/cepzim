@@ -7,8 +7,12 @@ class ViaCEP implements ICEP{
     
      async findByCEP(cep: string): Promise<IDataCEP> {
 
-       cep = cep.replace('-','');  
+       cep = cep.replace(/[^0-9]/g,'');
        
+       if (cep.length != 8){
+        throw new Error("zip code size is not allowed");   
+      }
+
        const response  =  await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
        const data  =  response.data as IDataCEP;
        return data ;     
