@@ -1,3 +1,4 @@
 import { ViaCEP } from "./services/ViaCEP";
+import { CorreiosCEP } from "./services/CorreiosCEP";
 
-export {ViaCEP}
+export {ViaCEP, CorreiosCEP}
