@@ -2,11 +2,13 @@
 
 ## Descrição
 
-Essa biblioteca foi criada como método para aplicar os fundamentos da linguagem javascript assim como seu superset Typescript.
+Essa biblioteca foi criada como método para aplicar e entender os fundamentos da linguagem javascript assim como seu superset Typescript.
+
 
 ## Features
 
- * Consulta diretamente a plataforma ViaCEP
+ * Consulta diretamente a plataforma ViaCEP ou Correrios
+ * O Dev é quem decide o que utilizar, podendo criar uma função para avaliar qual plataforma estã on-line.
  * Sem limite de utilização.
  * Possui alguns testes - sempre que possível novos casos de testes serão incluídos.
 
