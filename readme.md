@@ -27,19 +27,29 @@ yarn add cepzim
 
 ```javascript
 
-import { ViaCEP } from "cepzim";
+import { ViaCEP } from "./services/ViaCEP";
+import { CorreiosCEP} from "./services/CorreiosCEP"
 
-async function getCEP(cep: string){
+
+async function getCEP_ViaCEP(cep: string){
    const viacep = new ViaCEP();
-   console.log(await viacep.findByCEP(cep));
+    console.log(await viacep.findByCEP(cep));
 }
 
-async function get_On_Street(uf: string, city: string, street: string){
+async function get_On_Street_ViaCEP(uf: string, city: string, street: string){
     const viacep = new ViaCEP();
     console.log(await viacep.findByStreet(uf, city, street));
+ }
+
+async function getCEP_Correios(cep: string){
+   const correioscep = new CorreiosCEP();
+   console.log(await correioscep.findByCEP(cep));
 }
 
-get_On_Street('MG','Belo Horizonte', 'Rio Branco')
-getCEP('36030600')
+get_On_Street_ViaCEP('MG','Belo Horizonte', 'Rio Branco')
+
+getCEP_ViaCEP('36030600')
+
+getCEP_Correios('36030600')
 
 ```
