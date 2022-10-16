@@ -7,7 +7,7 @@ Essa biblioteca foi criada como método para aplicar e entender os fundamentos d
 
 ## Features
 
- * Consulta diretamente a plataforma ViaCEP ou Correrios
+ * Consulta diretamente a plataforma ViaCEP ou Correios
  * O Dev é quem decide o que utilizar, podendo criar uma função para avaliar qual plataforma está on-line.
  * Sem limite de utilização.
  * Possui alguns testes - sempre que possível novos casos de testes serão incluídos.
